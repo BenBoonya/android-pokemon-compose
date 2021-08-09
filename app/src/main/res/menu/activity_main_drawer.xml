@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pokemonListFragment"
+        android:icon="@drawable/ic_pikachu"
+        android:title="@string/label_pokemon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/berryListFragment"
+        android:icon="@drawable/ic_razz_berry"
+        android:title="@string/label_berries"
+        app:showAsAction="never" />
+
+</menu>
