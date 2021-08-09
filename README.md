@@ -1,30 +1,46 @@
-# Android Pokemon Info
+# Android Pokemon Compose
 
-This is an application created as a part of the session in Bangkok Android Conference 2019.
-The slide coresponding to this repository can be found here.
-https://www.slideshare.net/BoonyaKitpitak/a-single-activity-app-with-jetpacks-navigation-component
+This repository is a simple app that make request to  https://pokeapi.co and display them in the paginated lists.
+It demonstrates using Jetpack compose the following **Jetpack libraries**
+1. Android Jetpack viewmodel
+2. Livedata 
+3. Navigation component
+4. Paging library 3 
+5. Hilt dependency injection
 
-## Technology Stack
-**Jetpack Libraries**
+This app use MVVM with Clean Architecture along with coroutine.
+Using these libraries together does help reduce a lot of boiler plate code in my opinion.
 
-1. Jetpack's Navigation Component
-2. Jetpack's Paging Library
-3. Jetpack's ViewModel
+## Here are the screenshots.
 
-**Architecture**
+1. Paginated list screen
+<img width="348" alt="Screen Shot 2564-08-09 at 17 48 22" src="https://user-images.githubusercontent.com/19642082/128698262-34edceda-66b9-464e-999c-a212ce83004c.png">
 
-MVVM with Clean Architecture
+2. Detail screen
+<img width="347" alt="Screen Shot 2564-08-09 at 17 48 37" src="https://user-images.githubusercontent.com/19642082/128698265-88a19cad-d684-42c8-9505-24c5bba1055f.png">
 
+3. Drawer layout
+<img width="349" alt="Screen Shot 2564-08-09 at 17 48 49" src="https://user-images.githubusercontent.com/19642082/128698269-ba20fabb-00b7-45aa-add7-f9e4adadfd24.png">
 
-## Here are some of the screenshots.
+```
+MIT License
 
-<img width="384" alt="Screen Shot 2019-07-11 at 1 02 49 PM" src="https://user-images.githubusercontent.com/19642082/61026229-07794a00-a3dd-11e9-9661-c1a9aa710d74.png">
+Copyright (c) [2021] [Boonya Kitpitak]
 
-<img width="382" alt="Screen Shot 2019-07-11 at 1 03 21 PM" src="https://user-images.githubusercontent.com/19642082/61026235-0c3dfe00-a3dd-11e9-9c15-353fbba654c4.png">
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-<img width="382" alt="Screen Shot 2019-07-11 at 1 03 03 PM" src="https://user-images.githubusercontent.com/19642082/61026292-1d870a80-a3dd-11e9-97a9-dae8fa0db149.png">
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-
-All of the data is fetched from https://pokeapi.co
-
-Any PRs or issues are really welcome.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
