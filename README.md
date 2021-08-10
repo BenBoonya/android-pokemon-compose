@@ -1,7 +1,7 @@
 # Android Pokemon Compose
 
 This repository is a simple app that make request to  https://pokeapi.co and display them in the paginated lists.
-It demonstrates using Jetpack compose the following **Jetpack libraries**
+It demonstrates using Jetpack compose with the following **Jetpack libraries**
 1. Android Jetpack viewmodel
 2. Livedata 
 3. Navigation component
